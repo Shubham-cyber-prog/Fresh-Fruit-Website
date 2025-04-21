@@ -1,0 +1,368 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+p{
+    font-family: 'montserrat', sans-serif;
+}
+.nav-item a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-right: 15px;
+    transition: all 0.4s;
+
+}
+.nav-item a:hover{
+    color:#03fa03;
+}
+.navbar-brand{
+    height: 50px;
+    width: 100px;
+
+}
+.search{
+    height: 45px;
+    outline: none;
+    border: 2px solid rgb(14, 250, 10);
+    background-color: transparent;
+    border-radius: 20px 0px 0px 20px;
+    border-right: none;
+
+}
+.btn1{
+    height: 45px;
+    outline: none;
+    background-color: #03fa03;
+    color: white;
+    border: none;
+    border-radius:0px 20px 20px 0px ;
+    transition: all 0.4s;
+
+}
+.btn1:hover{
+    background-color: rgb(11, 236, 7);
+}
+.bi-bag-check{
+    font-size: 30px;
+    color:#139613;
+    cursor: pointer;
+    padding-top:5px ;
+
+}
+.bi-bag-check:hover{
+    color: #03fa03;
+}
+.navbar-toggler{
+    font-size: 23px;
+    color: black;
+
+}
+.navbar-toggler:focus{
+    outline:none;
+    box-shadow: none;
+}
+.main{
+    background: url(https://i.pinimg.com/474x/7f/82/9b/7f829b4db158205f6077353b8ecb9809.jpg)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+
+}
+.main h1{
+    font-size: 5rem;
+    color: #03fa03;
+    font-family: 'Righteous', cursive;
+}
+.main p{
+    color:#0eff02c1;
+}
+.main p:nth-child(1){
+    font-size: 18px;
+    font-weight:500 ;
+    padding-top:100px ;
+}
+.main p:nth-child(2){
+    font-size: 18px;
+    color:grey;
+
+}
+.mbtn1{
+    height: 50px;
+    width: 25%;
+    outline: none;
+    border:none;
+    color: white;
+    background: #03fa03;
+    border-radius: 50px;
+    transition: all 0.4s;
+}
+.mbtn1:hover{
+    background-color: #03fa03;
+}
+.mbtn2{
+    height: 50px;
+    width: 25%;
+    outline: none;
+    background-color: transparent;
+    color: #03fa03;
+    border: 1px solid rgb(45, 242, 10);
+    border-radius: 50px;
+    transition: all 0.4s;
+
+}
+.mbtn2:hover{
+    background-color: #03fa03;
+    border: none;
+    color: white;
+}
+.welcome{
+    background: #03fa03;
+}
+.line{
+    height: 6px;
+    width: 30%;
+    background: #03fa03;
+    display: inline-block;
+}
+.about{
+    background :url(https://i.pinimg.com/736x/3d/8e/c8/3d8ec817af2dd45f30d99267564acc95.jpg) no-repeat; 
+    height: 100vh;
+    width: 100%; 
+}
+.about h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.about p:nth-child(1){
+    font-size: 18px;
+    font-weight:500 ;
+    padding-top:100px ;
+}
+.about p:nth-child(2){
+    font-size: 18px;
+    color:grey;
+}
+.line2{
+    height: 6px;
+    width :30%;
+    background-color: white;
+    display: inline-block;
+}
+.welcome h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.welcome .card{
+    border: none;
+    border-radius:0 ;
+    cursor: pointer;
+}
+.welcome i{
+    font-size: 45px;
+    color: #03fa03;
+}
+.welcome h2{
+    font-weight: lighter;
+    padding: 10px px;
+}
+.product h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.product p:nth-child(1){
+    font-size: 18px;
+    font-weight:500 ;
+    padding-top:100px ;
+}
+.product p:nth-child(2){
+    font-size: 18px;
+    color:grey;
+}
+.star{
+    text-align: end;
+    color: gold;
+}
+.product .card-body{
+    border: 1px dashed rgb(158, 148, 148) ;
+}
+.product .card{
+    border: none;
+    border-radius: none;
+}
+.head1{
+    font-weight: 400;
+    margin: 0;
+}
+.per1{
+    color: azure;
+}
+.btnc{
+    height:50px;
+    width:50%;
+    outline: none;
+    border: none;
+    color: rgb(244, 248, 244);
+    background: #03fa03;
+    border-radius: 50px;
+    margin: auto;
+    display: block;
+    transition: all 0.4s;
+}
+.btnc:hover{
+    outline: none;
+    border: 1px solid greenyellow;
+    color: #03fa03;
+    background: transparent;
+    border-radius: 50px;
+}
+.discount{
+    background: #03fa03;
+    color: white;
+
+}
+.dbtn{
+    height: 50px;
+    width: 75%;
+    outline: none;
+    border: none;
+    color: black;
+    background-color: white;
+    border-radius: 50px ;
+    margin: 0 auto;
+    display: block;
+    font-weight: lighter;
+    transition: all 0.4s;
+
+}
+.dbtn:hover{
+    background-color: #dceb09;
+}
+.store h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.store p:nth-child(1){
+    font-size: 18px;
+    font-weight:500 ;
+    padding-top:100px ;
+}
+.store p:nth-child(2){
+    font-size: 18px;
+    color:grey;
+}
+.store i{
+    font-size: 45px;
+}
+.store .card{
+    border-radius: 0;
+    border: none;
+    transition: all 0.3s;
+    cursor: pointer;  
+}
+.store .card:hover{
+    background-color: rgb(22, 254, 10);
+    color: azure;
+}
+.store .card:hover .per1{
+    color: white;
+}
+.seller h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.seller i{
+    color: orange;
+}
+.seller .card{
+    border-radius: 0;
+    border: none;
+}
+.contact{
+    background: url(https://i.pinimg.com/736x/12/ba/32/12ba32a96c794b91ebf9cead082dcada.jpg)no-repeat;
+    width: 100%;
+    background-size: cover;
+    
+}
+.contact h1{
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+}
+.contact p{
+    color: white;
+    font-weight: bold;
+}
+.circle{
+    height: 60px;
+    width:60px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 18px;
+}
+
+.contact input {
+    height:40px; 
+    width: 100%;
+    border: none;
+    outline:none; 
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    padding:10px;
+}
+.contact textarea {
+    height:100px; 
+    width: 100%;
+    border: none;
+    outline:none; 
+    background-color: white;
+    margin-top: 10px;
+    padding:10px;
+}
+.cbtn {
+    height:40px; 
+    width: 100%;
+    border: none;
+    outline:none; 
+    background-color: white;
+    color: black;
+    border-radius: 60px;
+    padding:10px;
+    font-weight: lighter;
+    transition: all 0.3s;
+}
+.cbtn:hover{
+    background: #15f105;
+}
+.footer{
+    background: rgb(48, 46, 46);
+}
+.s1{
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 9px;
+    margin-left: 10px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.s1:hover{
+    background-color: #03fa03;
+    border: none;
+}
+
+.footer p{
+    color: #03fa03;
+}
