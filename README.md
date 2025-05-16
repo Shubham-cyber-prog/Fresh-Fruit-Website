@@ -12,8 +12,8 @@ A colorful, responsive, and fresh-themed fruit website designed to promote healt
 ---
 
 ## 📸 Preview
+![image](https://github.com/user-attachments/assets/302ec0a7-578c-4139-a805-b6e72707c164)
 
-![Website Preview](https://shubham-cyber-prog.github.io/Fresh-Fruit-Website/assets/images/banner.jpg) <!-- Update this if actual path differs -->
 
 ---
 
